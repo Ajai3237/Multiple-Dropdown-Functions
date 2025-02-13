@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main_container">
+        <section class="section_form">
+            <h1 class="heading"> Multiple  Functions Checker</h1>
+            <form id="consultation-form" class="feed-form">
+                <input required placeholder="Enter a number" type="text" id="input">
+                <select id="functions">
+                    
+                    <option value="" disabled selected>Select a function</option>
+                    <option value="Reverse">Reverse the number</option>
+                    <option value="Palindrom">Palindrome or not</option>
+                    <option value="Fibonacci">Fibonacci Series</option>
+                    <option value="OddEven">Check Odd / Even</option>
+                    <option value="Prime">Check Prime / not</option>
+                    
+                </select>
+                <input name="number" required placeholder="Output" type="text" id="output" readonly>
+                <button type="button"  onclick="check()" class="button_submit">Check</button>
+            </form>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
