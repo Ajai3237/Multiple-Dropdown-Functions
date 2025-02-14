@@ -59,3 +59,9 @@ body{
   color: #212529;
   text-shadow: 2px 2px 4px rgb(171, 167, 167);
 }
+#functions{
+  cursor: pointer;
+}
+.button_submit{
+  cursor: pointer;
+}
